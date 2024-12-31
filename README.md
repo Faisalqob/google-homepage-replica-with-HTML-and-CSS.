@@ -20,7 +20,7 @@ To run this project on your local machine, follow these steps:
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/Faisalqob/google-home-page-replica.git
+    git clone https://github.com/Faisalqob/google-homepage-replica-with-HTML-and-CSS..git
     ```
 
 2. Navigate to the project folder:
@@ -37,5 +37,5 @@ To run this project on your local machine, follow these steps:
 
    Or simply double-click on the `index.html` file.
 
-## File Structure
+
 
