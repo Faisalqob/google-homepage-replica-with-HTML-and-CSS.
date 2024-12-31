@@ -10,9 +10,9 @@ This project is a simple replica of Google's home page created using only HTML a
 - **Footer**: Includes footer navigation with links such as "About," "Advertising," "Business," and more.
 
 ## Screenshots
-![Google Home Page Replica](./images/screenshot.png)  
+
 ![Captghhghure](https://github.com/user-attachments/assets/1a731d65-791f-4be8-8047-4eb5a63ffc04)
-page)*
+
 
 ## Installation
 To run this project on your local machine, follow these steps:
