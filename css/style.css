@@ -1,0 +1,283 @@
+/*Designer: Faisal Yakubu*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display:block;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+}
+
+/*The Navigation bar at the top*/
+.nav-top{
+    margin-top: 10px;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    height: 48px;
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    min-width: 300px;
+    padding: 10px;
+}
+
+.nav-top .nav-container{
+    height: 48px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:px;
+    min-width: 270px;
+    max-width:270px;
+    margin-right: 10px;
+}
+
+.nav-container a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+}
+
+.search-type{
+    display: inline-flex;
+    gap: 15px;
+}
+
+nav img{
+    height:20px;
+}
+
+.menu-icon{
+    height: 40px;
+    width: 40px;
+    border:none;
+    border-radius:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+.menu-icon:hover{
+    background-color:rgb(225, 223, 223);
+    
+}
+
+.nav-container .sign-in{
+    color:white;
+    height: 30px;
+    width: 70px;
+    border-radius: 4px;
+    background-color:  #1a73e8;
+    border: 1px solid transparent;
+}
+
+.image-search:hover{
+    text-decoration: underline;
+}
+
+.advanced-search:hover{
+    text-decoration: underline;
+}
+
+.sign-in:hover{
+    background: #1a73e8;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 2px rgb(186, 183, 183);
+}
+
+.foofle-title{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+h1 span{
+    font-size: 92px;
+    font-family: sans-serif
+}
+
+/* Coloring the individual letters in the title  of the page */
+.color-blue{
+    color:#1a73e8;
+}
+
+.color-red{
+    color: rgba(222, 14, 14, 0.795);
+}
+
+.color-yellow{
+    color:rgba(231, 193, 7, 0.898);
+}
+
+.color-green{
+    color:rgb(7, 186, 7);
+}
+
+form {
+    padding:15px;
+    margin: 30px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border: 1px solid rgb(228, 223, 223);
+    border-radius: 40px;
+    height:48px;
+    min-width: 400px;
+    max-width: 550px;
+    padding: 5px 8px 0 14px;
+}
+
+form:hover{
+    box-shadow: 5px 2px 5px rgba(208, 203, 203, 0.87);  
+}
+
+form .search-icon{
+    height: 15px;
+}
+
+form .text-box{
+    border:none;
+    padding-left: 5px;
+    height: 30px;
+    width: 350px;
+    word-wrap: break-word;
+}
+
+form .text-box:hover{
+    border:none
+}
+
+form .text-box:focus{
+    outline:none
+}
+
+form .microphone-icon{
+    margin-right:15px;
+    height: 20px;
+}
+
+form .image-icon{
+    margin-right:10px;
+    height: 20px;
+}
+
+.opt-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.opt-buttons input[type="submit"]{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+.opt-buttons input[type="submit"]:hover{
+    border:1px solid  rgb(226, 226, 226);
+    display:flex;
+    box-shadow: 2px 2px 2px rgb(226, 226, 226);
+}
+
+.opt-buttons a:hover{
+text-decoration: none;
+}
+
+.lang-list{
+    margin-top: 15px;
+    display:flex;
+    justify-content: center;
+}
+
+
+.lang-list li{
+    display: inline;
+    margin-left:6.5px;
+    color: #1a0dab;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.lang-list a{
+    text-decoration: none;
+}
+
+.lang-list li:hover{
+    text-decoration: underline;
+}
+
+
+footer div{
+    
+    margin:1px solid;
+    height: 50px;
+    background-color: #f3f3f4;
+}
+
+.user-location{
+    margin-top: 60px;
+    display:flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+footer hr{
+    background-color: rgb(218, 223, 223);
+    opacity: 0.5;
+}
+
+.footer-nav{
+    padding:0 110px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+
+footer div li{
+    display:inline;
+    margin-left: 15px;
+    
+}
+
+.footer-nav a{
+    text-decoration: none;
+    color:black;
+}
+
+.footer-nav a:hover{
+    text-decoration: underline;
+}
+
+.footer-nav-left{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.footer-nav-right{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
